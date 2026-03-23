@@ -1,5 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 100;
     margin: 0;
     background-color: rgb(6, 11, 26);
 }
@@ -102,12 +104,6 @@ main img {
     margin-bottom: 10px;
 }
 
-.small-text {
-    font-style: italic;
-    color: gray;
-    margin-bottom: 10px;
-}
-
 .contact-content {
     display: flex;
     justify-content: space-between;
@@ -138,4 +134,16 @@ main img {
     width: 100%;
     height: 400px;
     object-fit: cover;
+}
+
+body {
+    font-weight: 400;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 300;
 }
